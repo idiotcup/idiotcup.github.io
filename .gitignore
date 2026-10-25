@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+# Original workbook and old dashboard stay local, never uploaded
+source/

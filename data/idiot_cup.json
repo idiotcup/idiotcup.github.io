@@ -1,0 +1,2541 @@
+{
+ "meta": {
+  "title": "The Idiot Cup",
+  "since": 2003,
+  "updated": "2026-10-25",
+  "minTrips": 3,
+  "netFootnote": "Net = adjusted net, off the low team of group",
+  "ctpNote": "CTP lifetime totals before 2026 come from the workbook; per-year CTP detail starts in 2026.",
+  "knownIssues": [],
+  "footnotes": [
+   "Some early records are incomplete: captains for 2015 and 2021, team sides for 2010, 2011 and 2014, belt scores before 2024, and per-year CTP before 2026.",
+   "Individual RC points cover 2013, 2016 and 2019 on, and track regulars only. Occasional one-off guests are left out, so a year's points may not balance."
+  ]
+ },
+ "players": {
+  "core": [
+   "Shevin",
+   "Soto",
+   "Eddie C",
+   "Geoff",
+   "Gil",
+   "Lavery",
+   "Stephan",
+   "Gy",
+   "Lamont",
+   "Ryan K",
+   "Josh",
+   "Barrett",
+   "Maynard",
+   "Jeremy L",
+   "Plunkett",
+   "Nardini",
+   "McDonald",
+   "EJ",
+   "Geno",
+   "Coach",
+   "Tyler",
+   "Jason L",
+   "Andy",
+   "Brad",
+   "Rhati",
+   "Ryan H",
+   "Mickey",
+   "Chris D"
+  ],
+  "others": [
+   "Brandon F",
+   "Brandon L",
+   "Neilson",
+   "Holbert",
+   "Jay",
+   "McNeal",
+   "Siemoneit",
+   "Matt Bell",
+   "Briggs",
+   "McLintock"
+  ],
+  "aka": {
+   "Lavery": "Keith",
+   "Shevin": "Daryl"
+  }
+ },
+ "ctpBefore2026": {
+  "Shevin": 5,
+  "Soto": 14,
+  "Eddie C": 6,
+  "Geoff": 10,
+  "Gil": 4,
+  "Lavery": 6,
+  "Stephan": 5,
+  "Gy": 8,
+  "Lamont": 11,
+  "Ryan K": 4,
+  "Josh": 16,
+  "Barrett": 4,
+  "Jeremy L": 1,
+  "Plunkett": 1,
+  "Nardini": 4,
+  "EJ": 3,
+  "Geno": 4,
+  "Coach": 3,
+  "Tyler": 2,
+  "Jason L": 1,
+  "Andy": 1,
+  "Rhati": 1,
+  "Ryan H": 6,
+  "Mickey": 1,
+  "Chris D": 1
+ },
+ "trips": [
+  {
+   "n": 1,
+   "year": 2003,
+   "dest": "Myrtle Beach",
+   "course": "Wild Wing Avocet",
+   "intl": false,
+   "golfers": 12,
+   "attendees": [
+    "Shevin",
+    "Soto",
+    "Eddie C",
+    "Gil",
+    "Lavery",
+    "Gy",
+    "Lamont",
+    "Ryan K",
+    "Maynard",
+    "Jeremy L",
+    "Plunkett",
+    "Siemoneit"
+   ],
+   "belt": {
+    "champs": [
+     "Ryan K",
+     "Gil"
+    ],
+    "gross": "5 over",
+    "net": null
+   },
+   "rc": {
+    "caps": [],
+    "winner": null,
+    "score": null,
+    "teams": null,
+    "matches": null,
+    "pts": null,
+    "side": {}
+   },
+   "calcutta": null,
+   "ctp": null,
+   "lat": 33.7,
+   "lng": -78.9
+  },
+  {
+   "n": 2,
+   "year": 2004,
+   "dest": "Tunica",
+   "course": "Tunica National",
+   "intl": false,
+   "golfers": 12,
+   "attendees": [
+    "Shevin",
+    "Soto",
+    "Geoff",
+    "Gil",
+    "Lavery",
+    "Gy",
+    "Lamont",
+    "Ryan K",
+    "Maynard",
+    "Jeremy L",
+    "Plunkett",
+    "Siemoneit"
+   ],
+   "belt": {
+    "champs": [
+     "Lamont",
+     "Siemoneit"
+    ],
+    "gross": null,
+    "net": null
+   },
+   "rc": {
+    "caps": [],
+    "winner": null,
+    "score": null,
+    "teams": null,
+    "matches": null,
+    "pts": null,
+    "side": {}
+   },
+   "calcutta": null,
+   "ctp": null,
+   "lat": 34.7,
+   "lng": -90.4
+  },
+  {
+   "n": 3,
+   "year": 2005,
+   "dest": "Charleston",
+   "course": "Wild Dunes Harbour",
+   "intl": false,
+   "golfers": 16,
+   "attendees": [
+    "Shevin",
+    "Soto",
+    "Eddie C",
+    "Geoff",
+    "Gil",
+    "Lavery",
+    "Stephan",
+    "Gy",
+    "Lamont",
+    "Ryan K",
+    "Maynard",
+    "Jeremy L",
+    "Plunkett",
+    "Tyler",
+    "Rhati",
+    "Siemoneit"
+   ],
+   "belt": {
+    "champs": [
+     "Lamont",
+     "Siemoneit"
+    ],
+    "gross": null,
+    "net": null
+   },
+   "rc": {
+    "caps": [],
+    "winner": null,
+    "score": null,
+    "teams": null,
+    "matches": null,
+    "pts": null,
+    "side": {}
+   },
+   "calcutta": null,
+   "ctp": null,
+   "lat": 32.8,
+   "lng": -79.9
+  },
+  {
+   "n": 4,
+   "year": 2006,
+   "dest": "Austin",
+   "course": "Avery Ranch",
+   "intl": false,
+   "golfers": 16,
+   "attendees": [
+    "Shevin",
+    "Soto",
+    "Eddie C",
+    "Geoff",
+    "Gil",
+    "Lavery",
+    "Stephan",
+    "Gy",
+    "Lamont",
+    "Ryan K",
+    "Maynard",
+    "Jeremy L",
+    "Plunkett",
+    "McDonald",
+    "Tyler",
+    "Matt Bell"
+   ],
+   "belt": {
+    "champs": [
+     "Tyler",
+     "Jeremy L"
+    ],
+    "gross": null,
+    "net": null
+   },
+   "rc": {
+    "caps": [],
+    "winner": null,
+    "score": null,
+    "teams": null,
+    "matches": null,
+    "pts": null,
+    "side": {}
+   },
+   "calcutta": null,
+   "ctp": null,
+   "lat": 30.3,
+   "lng": -97.7
+  },
+  {
+   "n": 5,
+   "year": 2007,
+   "dest": "New Orleans",
+   "course": "Carter Plantation",
+   "intl": false,
+   "golfers": 16,
+   "attendees": [
+    "Shevin",
+    "Soto",
+    "Eddie C",
+    "Geoff",
+    "Gil",
+    "Lavery",
+    "Stephan",
+    "Gy",
+    "Lamont",
+    "Ryan K",
+    "Maynard",
+    "Jeremy L",
+    "Plunkett",
+    "McDonald",
+    "Tyler",
+    "Matt Bell"
+   ],
+   "belt": {
+    "champs": [
+     "Tyler",
+     "Jeremy L"
+    ],
+    "gross": null,
+    "net": null
+   },
+   "rc": {
+    "caps": [],
+    "winner": null,
+    "score": null,
+    "teams": null,
+    "matches": null,
+    "pts": null,
+    "side": {}
+   },
+   "calcutta": null,
+   "ctp": null,
+   "lat": 29.95,
+   "lng": -90.07
+  },
+  {
+   "n": 6,
+   "year": 2008,
+   "dest": "Montreal",
+   "course": "Club de Golf Atlantide",
+   "intl": true,
+   "golfers": 16,
+   "attendees": [
+    "Shevin",
+    "Soto",
+    "Eddie C",
+    "Geoff",
+    "Gil",
+    "Lavery",
+    "Stephan",
+    "Gy",
+    "Lamont",
+    "Ryan K",
+    "Josh",
+    "Maynard",
+    "Jeremy L",
+    "Plunkett",
+    "McDonald",
+    "Matt Bell"
+   ],
+   "belt": {
+    "champs": [
+     "Lamont",
+     "Stephan"
+    ],
+    "gross": null,
+    "net": null
+   },
+   "rc": {
+    "caps": [],
+    "winner": null,
+    "score": null,
+    "teams": null,
+    "matches": null,
+    "pts": null,
+    "side": {}
+   },
+   "calcutta": null,
+   "ctp": null,
+   "lat": 45.5,
+   "lng": -73.6
+  },
+  {
+   "n": 7,
+   "year": 2009,
+   "dest": "Milwaukee",
+   "course": "Erin Hills",
+   "intl": false,
+   "golfers": 16,
+   "attendees": [
+    "Shevin",
+    "Soto",
+    "Eddie C",
+    "Geoff",
+    "Gil",
+    "Lavery",
+    "Stephan",
+    "Gy",
+    "Lamont",
+    "Ryan K",
+    "Josh",
+    "Maynard",
+    "Jeremy L",
+    "Plunkett",
+    "McDonald",
+    "Neilson"
+   ],
+   "belt": {
+    "champs": [
+     "Eddie C",
+     "Neilson"
+    ],
+    "gross": null,
+    "net": null
+   },
+   "rc": {
+    "caps": [
+     "Josh",
+     "Lamont"
+    ],
+    "winner": "Josh",
+    "score": null,
+    "teams": null,
+    "matches": null,
+    "pts": null,
+    "side": {
+     "Shevin": "L",
+     "Eddie C": "W",
+     "Geoff": "W",
+     "Gil": "L",
+     "Gy": "W",
+     "Jeremy L": "W",
+     "Josh": "W",
+     "Lamont": "L",
+     "Lavery": "L",
+     "Maynard": "L",
+     "McDonald": "L",
+     "Plunkett": "L",
+     "Ryan K": "W",
+     "Soto": "L",
+     "Stephan": "W"
+    }
+   },
+   "calcutta": null,
+   "ctp": null,
+   "lat": 43.0,
+   "lng": -87.9
+  },
+  {
+   "n": 8,
+   "year": 2010,
+   "dest": "New Jersey",
+   "course": "Twisted Dunes",
+   "intl": false,
+   "golfers": 16,
+   "attendees": [
+    "Shevin",
+    "Soto",
+    "Eddie C",
+    "Geoff",
+    "Gil",
+    "Lavery",
+    "Stephan",
+    "Gy",
+    "Lamont",
+    "Ryan K",
+    "Josh",
+    "Barrett",
+    "Maynard",
+    "Jeremy L",
+    "Plunkett",
+    "McDonald"
+   ],
+   "belt": {
+    "champs": [
+     "Gy",
+     "Lavery"
+    ],
+    "gross": null,
+    "net": null
+   },
+   "rc": {
+    "caps": [
+     "Josh",
+     "Lamont"
+    ],
+    "winner": "Lamont",
+    "score": null,
+    "teams": null,
+    "matches": null,
+    "pts": null,
+    "side": {
+     "Barrett": "L",
+     "Shevin": "W",
+     "Eddie C": "W",
+     "Geoff": "L",
+     "Gil": "W",
+     "Gy": "L",
+     "Josh": "L",
+     "Lavery": "W"
+    },
+    "note": "Winner follows the RC sheet (Josh's team on the losing side); the old Master tab had Josh."
+   },
+   "calcutta": null,
+   "ctp": null,
+   "lat": 40.1,
+   "lng": -74.4
+  },
+  {
+   "n": 9,
+   "year": 2011,
+   "dest": "Michigan",
+   "course": "The Bear",
+   "intl": false,
+   "golfers": 16,
+   "attendees": [
+    "Shevin",
+    "Soto",
+    "Eddie C",
+    "Geoff",
+    "Gil",
+    "Lavery",
+    "Stephan",
+    "Gy",
+    "Lamont",
+    "Ryan K",
+    "Josh",
+    "Barrett",
+    "Maynard",
+    "Jeremy L",
+    "McDonald",
+    "Neilson"
+   ],
+   "belt": {
+    "champs": [
+     "Josh",
+     "Stephan"
+    ],
+    "gross": null,
+    "net": null
+   },
+   "rc": {
+    "caps": [
+     "Josh",
+     "Lamont"
+    ],
+    "winner": "Josh",
+    "score": null,
+    "teams": null,
+    "matches": null,
+    "pts": null,
+    "side": {
+     "Barrett": "W",
+     "Shevin": "L",
+     "Eddie C": "L",
+     "Geoff": "W",
+     "Gil": "L",
+     "Josh": "W",
+     "Lamont": "L",
+     "Soto": "W",
+     "Stephan": "W"
+    }
+   },
+   "calcutta": null,
+   "ctp": null,
+   "lat": 44.3,
+   "lng": -85.4
+  },
+  {
+   "n": 10,
+   "year": 2012,
+   "dest": "Casa de Campo (1)",
+   "course": "Dye Fore - Marina Chavon",
+   "intl": true,
+   "golfers": 16,
+   "attendees": [
+    "Shevin",
+    "Soto",
+    "Eddie C",
+    "Geoff",
+    "Gil",
+    "Lavery",
+    "Stephan",
+    "Gy",
+    "Lamont",
+    "Ryan K",
+    "Josh",
+    "Barrett",
+    "Maynard",
+    "Jeremy L",
+    "Plunkett",
+    "McDonald"
+   ],
+   "belt": {
+    "champs": [
+     "Soto",
+     "Maynard"
+    ],
+    "gross": null,
+    "net": null
+   },
+   "rc": {
+    "caps": [
+     "Gators",
+     "Non-Gators"
+    ],
+    "winner": "Gators",
+    "score": null,
+    "teams": null,
+    "matches": null,
+    "pts": null,
+    "side": {
+     "Barrett": "L",
+     "Shevin": "W",
+     "Eddie C": "L",
+     "Geoff": "L",
+     "Gil": "W",
+     "Gy": "L",
+     "Jeremy L": "L",
+     "Josh": "L",
+     "Lamont": "W",
+     "Lavery": "W",
+     "Maynard": "W",
+     "McDonald": "W",
+     "Plunkett": "W",
+     "Ryan K": "L",
+     "Soto": "W",
+     "Stephan": "L"
+    }
+   },
+   "calcutta": null,
+   "ctp": null,
+   "lat": 18.4,
+   "lng": -68.9
+  },
+  {
+   "n": 11,
+   "year": 2013,
+   "dest": "Pinehurst (1)",
+   "course": "No. 2",
+   "intl": false,
+   "golfers": 16,
+   "attendees": [
+    "Shevin",
+    "Soto",
+    "Eddie C",
+    "Geoff",
+    "Gil",
+    "Lavery",
+    "Stephan",
+    "Gy",
+    "Lamont",
+    "Ryan K",
+    "Josh",
+    "Barrett",
+    "Maynard",
+    "Jeremy L",
+    "Plunkett",
+    "Nardini"
+   ],
+   "belt": {
+    "champs": [
+     "Gy",
+     "Maynard"
+    ],
+    "gross": null,
+    "net": null
+   },
+   "rc": {
+    "caps": [
+     "Lavery",
+     "Soto"
+    ],
+    "winner": "Lavery",
+    "score": null,
+    "teams": null,
+    "matches": null,
+    "pts": {
+     "Barrett": [
+      2,
+      1
+     ],
+     "Shevin": [
+      0,
+      3
+     ],
+     "Eddie C": [
+      2,
+      1
+     ],
+     "Geoff": [
+      0,
+      3
+     ],
+     "Gil": [
+      2,
+      1
+     ],
+     "Gy": [
+      0.5,
+      2.5
+     ],
+     "Jeremy L": [
+      0.5,
+      2.5
+     ],
+     "Josh": [
+      1,
+      2
+     ],
+     "Lamont": [
+      1.5,
+      1.5
+     ],
+     "Lavery": [
+      3,
+      0
+     ],
+     "Maynard": [
+      1.5,
+      1.5
+     ],
+     "Nardini": [
+      3,
+      0
+     ],
+     "Plunkett": [
+      1.5,
+      1.5
+     ],
+     "Ryan K": [
+      1,
+      2
+     ],
+     "Soto": [
+      3,
+      0
+     ],
+     "Stephan": [
+      2.5,
+      0.5
+     ]
+    },
+    "side": {
+     "Barrett": "W",
+     "Shevin": "W",
+     "Eddie C": "L",
+     "Geoff": "L",
+     "Gil": "W",
+     "Gy": "L",
+     "Jeremy L": "W",
+     "Josh": "L",
+     "Lamont": "W",
+     "Lavery": "W",
+     "Maynard": "W",
+     "Nardini": "W",
+     "Plunkett": "L",
+     "Ryan K": "L",
+     "Soto": "L",
+     "Stephan": "L"
+    }
+   },
+   "calcutta": null,
+   "ctp": null,
+   "lat": 35.2,
+   "lng": -79.5
+  },
+  {
+   "n": 12,
+   "year": 2014,
+   "dest": "Kohler",
+   "course": "Whistling Straits",
+   "intl": false,
+   "golfers": 16,
+   "attendees": [
+    "Shevin",
+    "Soto",
+    "Eddie C",
+    "Geoff",
+    "Lavery",
+    "Stephan",
+    "Gy",
+    "Lamont",
+    "Ryan K",
+    "Josh",
+    "Barrett",
+    "Maynard",
+    "Jeremy L",
+    "Plunkett",
+    "Nardini",
+    "McDonald"
+   ],
+   "belt": {
+    "champs": [
+     "Lamont",
+     "Plunkett"
+    ],
+    "gross": null,
+    "net": null
+   },
+   "rc": {
+    "caps": [
+     "Ryan K",
+     "Shevin"
+    ],
+    "winner": "Ryan K",
+    "score": null,
+    "teams": null,
+    "matches": null,
+    "pts": null,
+    "side": {
+     "Barrett": "L",
+     "Shevin": "L",
+     "Eddie C": "L",
+     "Geoff": "L",
+     "Gy": "W",
+     "Josh": "W",
+     "Lamont": "L",
+     "McDonald": "W",
+     "Nardini": "L",
+     "Ryan K": "W",
+     "Soto": "W"
+    }
+   },
+   "calcutta": null,
+   "ctp": null,
+   "lat": 43.75,
+   "lng": -87.75
+  },
+  {
+   "n": 13,
+   "year": 2015,
+   "dest": "Casa de Campo (2)",
+   "course": "Teeth of the Dog",
+   "intl": true,
+   "golfers": 16,
+   "attendees": [
+    "Shevin",
+    "Soto",
+    "Eddie C",
+    "Geoff",
+    "Gil",
+    "Lavery",
+    "Stephan",
+    "Lamont",
+    "Ryan K",
+    "Josh",
+    "Barrett",
+    "Maynard",
+    "Plunkett",
+    "Nardini",
+    "McDonald",
+    "Brandon L"
+   ],
+   "belt": {
+    "champs": [
+     "Lamont",
+     "Maynard"
+    ],
+    "gross": null,
+    "net": null
+   },
+   "rc": {
+    "caps": [],
+    "winner": null,
+    "score": null,
+    "teams": null,
+    "matches": null,
+    "pts": null,
+    "side": {
+     "Barrett": "L",
+     "Shevin": "W",
+     "Eddie C": "L",
+     "Geoff": "W",
+     "Gil": "L",
+     "Josh": "W",
+     "Lamont": "L",
+     "Lavery": "W",
+     "Maynard": "L",
+     "McDonald": "L",
+     "Nardini": "W",
+     "Plunkett": "L",
+     "Ryan K": "W",
+     "Stephan": "W"
+    }
+   },
+   "calcutta": null,
+   "ctp": null,
+   "lat": 18.42,
+   "lng": -68.88
+  },
+  {
+   "n": 14,
+   "year": 2016,
+   "dest": "Vail",
+   "course": "Red Sky",
+   "intl": false,
+   "golfers": 16,
+   "attendees": [
+    "Shevin",
+    "Soto",
+    "Eddie C",
+    "Geoff",
+    "Gil",
+    "Lavery",
+    "Stephan",
+    "Gy",
+    "Lamont",
+    "Ryan K",
+    "Josh",
+    "Barrett",
+    "Jeremy L",
+    "Plunkett",
+    "Nardini",
+    "McDonald"
+   ],
+   "belt": {
+    "champs": [
+     "Eddie C",
+     "Gy"
+    ],
+    "gross": null,
+    "net": null
+   },
+   "rc": {
+    "caps": [
+     "Soto",
+     "Lavery"
+    ],
+    "winner": "Soto",
+    "score": null,
+    "teams": null,
+    "matches": null,
+    "pts": {
+     "Barrett": [
+      1,
+      1
+     ],
+     "Shevin": [
+      0.5,
+      1.5
+     ],
+     "Eddie C": [
+      0.5,
+      1.5
+     ],
+     "Geoff": [
+      2,
+      0
+     ],
+     "Gil": [
+      1,
+      1
+     ],
+     "Gy": [
+      1.5,
+      0.5
+     ],
+     "Jeremy L": [
+      0.75,
+      1.25
+     ],
+     "Josh": [
+      1.5,
+      0.5
+     ],
+     "Lamont": [
+      1,
+      1
+     ],
+     "Lavery": [
+      1,
+      1
+     ],
+     "McDonald": [
+      2,
+      0
+     ],
+     "Nardini": [
+      0,
+      2
+     ],
+     "Plunkett": [
+      0.75,
+      1.25
+     ],
+     "Ryan K": [
+      0,
+      2
+     ],
+     "Soto": [
+      1,
+      1
+     ],
+     "Stephan": [
+      1.5,
+      0.5
+     ]
+    },
+    "side": {
+     "Barrett": "W",
+     "Shevin": "L",
+     "Eddie C": "L",
+     "Geoff": "W",
+     "Gil": "W",
+     "Gy": "W",
+     "Jeremy L": "L",
+     "Josh": "L",
+     "Lamont": "W",
+     "Lavery": "L",
+     "McDonald": "W",
+     "Nardini": "L",
+     "Plunkett": "W",
+     "Ryan K": "L",
+     "Soto": "W",
+     "Stephan": "L"
+    }
+   },
+   "calcutta": null,
+   "ctp": null,
+   "lat": 39.6,
+   "lng": -106.4
+  },
+  {
+   "n": 15,
+   "year": 2017,
+   "dest": "San Diego",
+   "course": "Torrey Pines South",
+   "intl": false,
+   "golfers": 16,
+   "attendees": [
+    "Shevin",
+    "Soto",
+    "Eddie C",
+    "Geoff",
+    "Lavery",
+    "Stephan",
+    "Gy",
+    "Lamont",
+    "Ryan K",
+    "Josh",
+    "Barrett",
+    "Maynard",
+    "Jeremy L",
+    "Plunkett",
+    "Nardini",
+    "Brad"
+   ],
+   "belt": {
+    "champs": [
+     "Shevin",
+     "Ryan K"
+    ],
+    "gross": null,
+    "net": null
+   },
+   "rc": {
+    "caps": [
+     "Josh",
+     "Lamont"
+    ],
+    "winner": "Josh",
+    "score": null,
+    "teams": null,
+    "matches": null,
+    "pts": null,
+    "side": {
+     "Barrett": "W",
+     "Shevin": "L",
+     "Eddie C": "W",
+     "Geoff": "L",
+     "Gy": "W",
+     "Jeremy L": "L",
+     "Josh": "W",
+     "Lamont": "L",
+     "Lavery": "W",
+     "Maynard": "W",
+     "Nardini": "W",
+     "Plunkett": "W",
+     "Ryan K": "L",
+     "Soto": "L",
+     "Stephan": "L",
+     "Brad": "L"
+    }
+   },
+   "calcutta": {
+    "owners": [
+     "Shevin",
+     "Ryan K"
+    ],
+    "price": 600,
+    "pot": 6530,
+    "teams": 8
+   },
+   "ctp": null,
+   "lat": 32.7,
+   "lng": -117.2
+  },
+  {
+   "n": 16,
+   "year": 2018,
+   "dest": "Pinehurst (2)",
+   "course": "No. 2",
+   "intl": false,
+   "golfers": 16,
+   "attendees": [
+    "Shevin",
+    "Soto",
+    "Eddie C",
+    "Geoff",
+    "Gil",
+    "Lavery",
+    "Stephan",
+    "Lamont",
+    "Ryan K",
+    "Josh",
+    "Barrett",
+    "Maynard",
+    "Nardini",
+    "Brad",
+    "Brandon F",
+    "Jay"
+   ],
+   "belt": {
+    "champs": [
+     "Lavery",
+     "Gil"
+    ],
+    "gross": null,
+    "net": null
+   },
+   "rc": {
+    "caps": [
+     "Barrett",
+     "Maynard"
+    ],
+    "winner": "Barrett",
+    "score": null,
+    "teams": null,
+    "matches": null,
+    "pts": null,
+    "side": {
+     "Barrett": "W",
+     "Shevin": "L",
+     "Eddie C": "W",
+     "Geoff": "L",
+     "Gil": "W",
+     "Josh": "L",
+     "Lamont": "W",
+     "Lavery": "W",
+     "Maynard": "L",
+     "Nardini": "W",
+     "Ryan K": "L",
+     "Soto": "W",
+     "Stephan": "W",
+     "Brad": "L"
+    }
+   },
+   "calcutta": {
+    "owners": [
+     "Josh",
+     "Stephan"
+    ],
+    "price": 920,
+    "pot": 7740,
+    "teams": 8
+   },
+   "ctp": null,
+   "lat": 35.19,
+   "lng": -79.47
+  },
+  {
+   "n": 17,
+   "year": 2019,
+   "dest": "Ponte Vedra",
+   "course": "Stadium Course",
+   "intl": false,
+   "golfers": 16,
+   "attendees": [
+    "Shevin",
+    "Soto",
+    "Eddie C",
+    "Geoff",
+    "Gil",
+    "Lavery",
+    "Stephan",
+    "Lamont",
+    "Josh",
+    "Barrett",
+    "Maynard",
+    "Coach",
+    "Andy",
+    "Brad",
+    "Holbert",
+    "Briggs"
+   ],
+   "belt": {
+    "champs": [
+     "Coach",
+     "Maynard"
+    ],
+    "gross": null,
+    "net": null
+   },
+   "rc": {
+    "caps": [
+     "Bud",
+     "Pal"
+    ],
+    "winner": "Bud",
+    "score": null,
+    "teams": null,
+    "matches": null,
+    "pts": {
+     "Barrett": [
+      1,
+      1
+     ],
+     "Shevin": [
+      2,
+      0
+     ],
+     "Eddie C": [
+      1,
+      1
+     ],
+     "Geoff": [
+      2,
+      0
+     ],
+     "Gil": [
+      2,
+      0
+     ],
+     "Josh": [
+      1,
+      1
+     ],
+     "Lamont": [
+      0,
+      2
+     ],
+     "Lavery": [
+      0,
+      2
+     ],
+     "Maynard": [
+      1,
+      1
+     ],
+     "Soto": [
+      0,
+      2
+     ],
+     "Stephan": [
+      0,
+      2
+     ],
+     "Andy": [
+      1,
+      1
+     ],
+     "Coach": [
+      2,
+      0
+     ]
+    },
+    "side": {
+     "Barrett": "L",
+     "Shevin": "W",
+     "Eddie C": "W",
+     "Geoff": "W",
+     "Gil": "L",
+     "Josh": "L",
+     "Lamont": "W",
+     "Lavery": "L",
+     "Maynard": "W",
+     "Soto": "L",
+     "Stephan": "W",
+     "Andy": "L",
+     "Coach": "W"
+    }
+   },
+   "calcutta": {
+    "owners": [
+     "Briggs",
+     "Barrett"
+    ],
+    "price": 1010,
+    "pot": 7850,
+    "teams": 8
+   },
+   "ctp": null,
+   "lat": 30.2,
+   "lng": -81.4
+  },
+  {
+   "n": 18,
+   "year": 2020,
+   "dest": "Pinehurst (3)",
+   "course": "No. 4",
+   "intl": false,
+   "golfers": 12,
+   "attendees": [
+    "Shevin",
+    "Soto",
+    "Eddie C",
+    "Geoff",
+    "Gil",
+    "Stephan",
+    "Gy",
+    "Josh",
+    "Barrett",
+    "Nardini",
+    "Coach",
+    "Ryan H"
+   ],
+   "belt": {
+    "champs": [
+     "Josh",
+     "Eddie C"
+    ],
+    "gross": null,
+    "net": null
+   },
+   "rc": {
+    "caps": [
+     "Shevin",
+     "Geoff"
+    ],
+    "winner": "Geoff",
+    "score": null,
+    "teams": null,
+    "matches": null,
+    "pts": {
+     "Barrett": [
+      1.75,
+      2.25
+     ],
+     "Shevin": [
+      1.75,
+      2.25
+     ],
+     "Eddie C": [
+      2.25,
+      1.75
+     ],
+     "Geoff": [
+      2.25,
+      1.75
+     ],
+     "Gil": [
+      2,
+      2
+     ],
+     "Gy": [
+      2.25,
+      1.75
+     ],
+     "Josh": [
+      2.25,
+      1.75
+     ],
+     "Nardini": [
+      2,
+      2
+     ],
+     "Soto": [
+      1.75,
+      2.25
+     ],
+     "Stephan": [
+      1.75,
+      2.25
+     ],
+     "Coach": [
+      1.5,
+      2.5
+     ],
+     "Ryan H": [
+      2.5,
+      1.5
+     ]
+    },
+    "side": {
+     "Barrett": "L",
+     "Shevin": "L",
+     "Eddie C": "L",
+     "Geoff": "W",
+     "Gil": "W",
+     "Gy": "W",
+     "Josh": "W",
+     "Nardini": "L",
+     "Soto": "L",
+     "Stephan": "W",
+     "Coach": "W",
+     "Ryan H": "L"
+    }
+   },
+   "calcutta": {
+    "owners": [
+     "Ryan H",
+     "Stephan"
+    ],
+    "price": 1080,
+    "pot": 4840,
+    "teams": 6
+   },
+   "ctp": null,
+   "lat": 35.21,
+   "lng": -79.49
+  },
+  {
+   "n": 19,
+   "year": 2021,
+   "dest": "Branson",
+   "course": "Ozarks National",
+   "intl": false,
+   "golfers": 20,
+   "attendees": [
+    "Shevin",
+    "Soto",
+    "Eddie C",
+    "Geoff",
+    "Gil",
+    "Lavery",
+    "Stephan",
+    "Gy",
+    "Lamont",
+    "Ryan K",
+    "Josh",
+    "Barrett",
+    "Jeremy L",
+    "Nardini",
+    "EJ",
+    "Geno",
+    "Coach",
+    "Ryan H",
+    "Mickey",
+    "McNeal"
+   ],
+   "belt": {
+    "champs": [
+     "EJ",
+     "Shevin"
+    ],
+    "gross": null,
+    "net": null
+   },
+   "rc": {
+    "caps": [],
+    "winner": null,
+    "score": null,
+    "teams": null,
+    "matches": null,
+    "pts": {
+     "Barrett": [
+      3.5,
+      1.5
+     ],
+     "Shevin": [
+      3,
+      2
+     ],
+     "Eddie C": [
+      4.5,
+      0.5
+     ],
+     "Geoff": [
+      3.5,
+      1.5
+     ],
+     "Gil": [
+      2,
+      3
+     ],
+     "Gy": [
+      3,
+      2
+     ],
+     "Jeremy L": [
+      0.5,
+      4.5
+     ],
+     "Josh": [
+      4.25,
+      0.75
+     ],
+     "Lamont": [
+      2.5,
+      2.5
+     ],
+     "Lavery": [
+      2.5,
+      2.5
+     ],
+     "Nardini": [
+      2,
+      3
+     ],
+     "Ryan K": [
+      0.5,
+      4.5
+     ],
+     "Soto": [
+      2,
+      3
+     ],
+     "Stephan": [
+      3,
+      2
+     ],
+     "Coach": [
+      5,
+      0
+     ],
+     "Ryan H": [
+      0.75,
+      4.25
+     ],
+     "EJ": [
+      0.25,
+      4.75
+     ],
+     "Geno": [
+      2.5,
+      2.5
+     ],
+     "Mickey": [
+      2,
+      3
+     ]
+    },
+    "side": {
+     "Barrett": "W",
+     "Shevin": "W",
+     "Eddie C": "W",
+     "Geoff": "L",
+     "Gil": "L",
+     "Gy": "W",
+     "Jeremy L": "L",
+     "Josh": "W",
+     "Lamont": "W",
+     "Lavery": "L",
+     "Nardini": "L",
+     "Ryan K": "L",
+     "Soto": "L",
+     "Stephan": "W",
+     "Coach": "W",
+     "Ryan H": "L",
+     "EJ": "L",
+     "Geno": "W",
+     "Mickey": "L"
+    }
+   },
+   "calcutta": {
+    "owners": [
+     "Mickey",
+     "Lavery"
+    ],
+    "price": 1150,
+    "pot": 14110,
+    "teams": 10
+   },
+   "ctp": null,
+   "lat": 36.6,
+   "lng": -93.3
+  },
+  {
+   "n": 20,
+   "year": 2022,
+   "dest": "Lake Oconee",
+   "course": "Great Waters",
+   "intl": false,
+   "golfers": 20,
+   "attendees": [
+    "Shevin",
+    "Soto",
+    "Eddie C",
+    "Geoff",
+    "Gil",
+    "Stephan",
+    "Gy",
+    "Lamont",
+    "Ryan K",
+    "Josh",
+    "Barrett",
+    "Nardini",
+    "EJ",
+    "Geno",
+    "Coach",
+    "Tyler",
+    "Jason L",
+    "Andy",
+    "Mickey",
+    "McLintock"
+   ],
+   "belt": {
+    "champs": [
+     "Geoff",
+     "Geno"
+    ],
+    "gross": null,
+    "net": null
+   },
+   "rc": {
+    "caps": [
+     "Gil",
+     "Ryan K"
+    ],
+    "winner": "Gil",
+    "score": null,
+    "teams": null,
+    "matches": null,
+    "pts": {
+     "Barrett": [
+      1.5,
+      3.5
+     ],
+     "Shevin": [
+      4.75,
+      0.25
+     ],
+     "Eddie C": [
+      2,
+      3
+     ],
+     "Geoff": [
+      2.25,
+      2.75
+     ],
+     "Gil": [
+      5,
+      0
+     ],
+     "Gy": [
+      2,
+      3
+     ],
+     "Jason L": [
+      1,
+      4
+     ],
+     "Josh": [
+      3.25,
+      1.75
+     ],
+     "Lamont": [
+      2,
+      3
+     ],
+     "Nardini": [
+      0,
+      5
+     ],
+     "Ryan K": [
+      3,
+      2
+     ],
+     "Soto": [
+      2,
+      3
+     ],
+     "Stephan": [
+      0.5,
+      4.5
+     ],
+     "Andy": [
+      2.25,
+      2.75
+     ],
+     "Tyler": [
+      4,
+      1
+     ],
+     "Coach": [
+      3.25,
+      1.75
+     ],
+     "EJ": [
+      2,
+      3
+     ],
+     "Geno": [
+      1,
+      4
+     ],
+     "Mickey": [
+      4.75,
+      0.25
+     ]
+    },
+    "side": {
+     "Barrett": "W",
+     "Shevin": "W",
+     "Eddie C": "L",
+     "Geoff": "L",
+     "Gil": "W",
+     "Gy": "L",
+     "Jason L": "L",
+     "Josh": "W",
+     "Lamont": "L",
+     "Nardini": "L",
+     "Ryan K": "L",
+     "Soto": "W",
+     "Stephan": "W",
+     "Andy": "L",
+     "Tyler": "W",
+     "Coach": "W",
+     "EJ": "L",
+     "Geno": "L",
+     "Mickey": "W"
+    }
+   },
+   "calcutta": {
+    "owners": [
+     "EJ",
+     "Ryan K"
+    ],
+    "price": 1650,
+    "pot": 17950,
+    "teams": 10
+   },
+   "ctp": null,
+   "lat": 33.5,
+   "lng": -83.3
+  },
+  {
+   "n": 21,
+   "year": 2023,
+   "dest": "Ireland",
+   "course": "Adare Manor",
+   "intl": true,
+   "golfers": 16,
+   "attendees": [
+    "Shevin",
+    "Soto",
+    "Eddie C",
+    "Geoff",
+    "Gil",
+    "Lavery",
+    "Stephan",
+    "Gy",
+    "Lamont",
+    "Ryan K",
+    "Josh",
+    "Barrett",
+    "Nardini",
+    "EJ",
+    "Geno",
+    "Rhati"
+   ],
+   "belt": {
+    "champs": [
+     "Josh",
+     "Stephan"
+    ],
+    "gross": null,
+    "net": null
+   },
+   "rc": {
+    "caps": [
+     "Soto",
+     "Geoff"
+    ],
+    "winner": "Soto",
+    "score": null,
+    "teams": null,
+    "matches": null,
+    "pts": {
+     "Barrett": [
+      4,
+      1
+     ],
+     "Shevin": [
+      1.75,
+      3.25
+     ],
+     "Eddie C": [
+      1.75,
+      3.25
+     ],
+     "Geoff": [
+      4,
+      1
+     ],
+     "Gil": [
+      2.75,
+      2.25
+     ],
+     "Gy": [
+      0.5,
+      4.5
+     ],
+     "Josh": [
+      2.25,
+      2.75
+     ],
+     "Lamont": [
+      2.75,
+      2.25
+     ],
+     "Lavery": [
+      4,
+      1
+     ],
+     "Nardini": [
+      3,
+      2
+     ],
+     "Ryan K": [
+      2,
+      3
+     ],
+     "Soto": [
+      1.75,
+      3.25
+     ],
+     "Stephan": [
+      3,
+      2
+     ],
+     "Rhati": [
+      2.5,
+      2.5
+     ],
+     "EJ": [
+      3,
+      2
+     ],
+     "Geno": [
+      1,
+      4
+     ]
+    },
+    "side": {
+     "Barrett": "W",
+     "Shevin": "L",
+     "Eddie C": "L",
+     "Geoff": "L",
+     "Gil": "L",
+     "Gy": "W",
+     "Josh": "L",
+     "Lamont": "W",
+     "Lavery": "W",
+     "Nardini": "L",
+     "Ryan K": "L",
+     "Soto": "W",
+     "Stephan": "W",
+     "Rhati": "W",
+     "EJ": "W",
+     "Geno": "L"
+    }
+   },
+   "calcutta": {
+    "owners": [
+     "Barrett",
+     "Lavery"
+    ],
+    "price": 3100,
+    "pot": 13900,
+    "teams": 8
+   },
+   "ctp": null,
+   "lat": 52.8,
+   "lng": -8.9
+  },
+  {
+   "n": 22,
+   "year": 2024,
+   "dest": "Casa de Campo (3)",
+   "course": "Teeth of the Dog",
+   "intl": true,
+   "golfers": 16,
+   "attendees": [
+    "Shevin",
+    "Soto",
+    "Eddie C",
+    "Geoff",
+    "Gil",
+    "Lavery",
+    "Stephan",
+    "Gy",
+    "Lamont",
+    "Ryan K",
+    "Josh",
+    "Barrett",
+    "Nardini",
+    "EJ",
+    "Geno",
+    "Andy"
+   ],
+   "belt": {
+    "champs": [
+     "Soto",
+     "Stephan"
+    ],
+    "gross": "1 over",
+    "net": "2 under"
+   },
+   "rc": {
+    "caps": [
+     "Nardini",
+     "Geno"
+    ],
+    "winner": "Nardini",
+    "score": null,
+    "teams": null,
+    "matches": null,
+    "pts": {
+     "Barrett": [
+      3.75,
+      1.25
+     ],
+     "Shevin": [
+      2,
+      3
+     ],
+     "Eddie C": [
+      4,
+      1
+     ],
+     "Geoff": [
+      4.75,
+      0.25
+     ],
+     "Gil": [
+      4.5,
+      0.5
+     ],
+     "Gy": [
+      1,
+      4
+     ],
+     "Josh": [
+      1.25,
+      3.75
+     ],
+     "Lamont": [
+      2,
+      3
+     ],
+     "Lavery": [
+      0.25,
+      4.75
+     ],
+     "Nardini": [
+      0.5,
+      4.5
+     ],
+     "Ryan K": [
+      3,
+      2
+     ],
+     "Soto": [
+      1.5,
+      3.5
+     ],
+     "Stephan": [
+      2,
+      3
+     ],
+     "Andy": [
+      3,
+      2
+     ],
+     "EJ": [
+      2.5,
+      2.5
+     ],
+     "Geno": [
+      4,
+      1
+     ]
+    },
+    "side": {
+     "Barrett": "W",
+     "Shevin": "L",
+     "Eddie C": "W",
+     "Geoff": "W",
+     "Gil": "L",
+     "Gy": "L",
+     "Josh": "L",
+     "Lamont": "W",
+     "Lavery": "L",
+     "Nardini": "W",
+     "Ryan K": "W",
+     "Soto": "L",
+     "Stephan": "L",
+     "Andy": "W",
+     "EJ": "W",
+     "Geno": "L"
+    }
+   },
+   "calcutta": {
+    "owners": [
+     "Geoff",
+     "Gil"
+    ],
+    "price": 1350,
+    "pot": 12800,
+    "teams": 8
+   },
+   "ctp": null,
+   "lat": 18.43,
+   "lng": -68.87
+  },
+  {
+   "n": 23,
+   "year": 2025,
+   "dest": "Arcadia Bluffs",
+   "course": "Arcadia Bluffs",
+   "intl": false,
+   "golfers": 16,
+   "attendees": [
+    "Shevin",
+    "Soto",
+    "Eddie C",
+    "Geoff",
+    "Gil",
+    "Lavery",
+    "Stephan",
+    "Gy",
+    "Josh",
+    "Barrett",
+    "Nardini",
+    "EJ",
+    "Geno",
+    "Coach",
+    "Jason L",
+    "Chris D"
+   ],
+   "belt": {
+    "champs": [
+     "Shevin",
+     "Geoff"
+    ],
+    "gross": "Even",
+    "net": "2 under"
+   },
+   "rc": {
+    "caps": [
+     "EJ",
+     "Coach"
+    ],
+    "winner": "Coach",
+    "score": null,
+    "teams": null,
+    "matches": null,
+    "pts": {
+     "Barrett": [
+      2,
+      3
+     ],
+     "Shevin": [
+      3,
+      2
+     ],
+     "Eddie C": [
+      1.5,
+      3.5
+     ],
+     "Geoff": [
+      1,
+      4
+     ],
+     "Gil": [
+      5,
+      0
+     ],
+     "Gy": [
+      4,
+      1
+     ],
+     "Jason L": [
+      3,
+      2
+     ],
+     "Josh": [
+      3,
+      2
+     ],
+     "Lavery": [
+      0,
+      5
+     ],
+     "Nardini": [
+      3.25,
+      1.75
+     ],
+     "Soto": [
+      0,
+      5
+     ],
+     "Stephan": [
+      1.75,
+      3.25
+     ],
+     "Coach": [
+      4.75,
+      0.25
+     ],
+     "EJ": [
+      2.25,
+      2.75
+     ],
+     "Geno": [
+      2,
+      3
+     ],
+     "Chris D": [
+      3.5,
+      1.5
+     ]
+    },
+    "side": {
+     "Barrett": "W",
+     "Shevin": "W",
+     "Eddie C": "L",
+     "Geoff": "L",
+     "Gil": "L",
+     "Gy": "W",
+     "Jason L": "W",
+     "Josh": "W",
+     "Lavery": "L",
+     "Nardini": "W",
+     "Soto": "L",
+     "Stephan": "L",
+     "Coach": "W",
+     "EJ": "L",
+     "Geno": "L",
+     "Chris D": "W"
+    }
+   },
+   "calcutta": {
+    "owners": [
+     "Gil",
+     "Lavery"
+    ],
+    "price": 2600,
+    "pot": 17500,
+    "teams": 8
+   },
+   "ctp": null,
+   "lat": 44.5,
+   "lng": -86.2
+  },
+  {
+   "n": 24,
+   "year": 2026,
+   "dest": "Bend, OR",
+   "course": "Tetherow",
+   "intl": false,
+   "golfers": 16,
+   "attendees": [
+    "Jason L",
+    "Shevin",
+    "Geoff",
+    "Soto",
+    "Eddie C",
+    "EJ",
+    "Geno",
+    "Nardini",
+    "Barrett",
+    "Lavery",
+    "Gy",
+    "Josh",
+    "Ryan K",
+    "Stephan",
+    "Gil",
+    "Chris D"
+   ],
+   "belt": {
+    "champs": [
+     "Barrett",
+     "Geoff"
+    ],
+    "gross": "Even",
+    "net": "2 under",
+    "note": "Shevin/Stephan also shot Even / Net 2 under; Barrett/Geoff won the playoff."
+   },
+   "rc": {
+    "caps": [
+     "Jason L",
+     "Barrett"
+    ],
+    "winner": "Jason L",
+    "score": [
+     12.5,
+     11.5
+    ],
+    "teams": {
+     "Jason L": [
+      "Jason L",
+      "Shevin",
+      "Geoff",
+      "Soto",
+      "Eddie C",
+      "EJ",
+      "Geno",
+      "Nardini"
+     ],
+     "Barrett": [
+      "Barrett",
+      "Lavery",
+      "Gy",
+      "Josh",
+      "Ryan K",
+      "Stephan",
+      "Gil",
+      "Chris D"
+     ]
+    },
+    "side": {
+     "Jason L": "W",
+     "Shevin": "W",
+     "Geoff": "W",
+     "Soto": "W",
+     "Eddie C": "W",
+     "EJ": "W",
+     "Geno": "W",
+     "Nardini": "W",
+     "Barrett": "L",
+     "Lavery": "L",
+     "Gy": "L",
+     "Josh": "L",
+     "Ryan K": "L",
+     "Stephan": "L",
+     "Gil": "L",
+     "Chris D": "L"
+    },
+    "matches": [
+     {
+      "day": 1,
+      "format": "2-man scramble",
+      "a": [
+       "Jason L",
+       "Shevin"
+      ],
+      "b": [
+       "Chris D",
+       "Ryan K"
+      ],
+      "pa": 1.75,
+      "pb": 0.25
+     },
+     {
+      "day": 1,
+      "format": "2-man scramble",
+      "a": [
+       "EJ",
+       "Geno"
+      ],
+      "b": [
+       "Gil",
+       "Gy"
+      ],
+      "pa": 0.25,
+      "pb": 1.75
+     },
+     {
+      "day": 1,
+      "format": "2-man scramble",
+      "a": [
+       "Soto",
+       "Geoff"
+      ],
+      "b": [
+       "Lavery",
+       "Josh"
+      ],
+      "pa": 2,
+      "pb": 0
+     },
+     {
+      "day": 1,
+      "format": "2-man scramble",
+      "a": [
+       "Eddie C",
+       "Nardini"
+      ],
+      "b": [
+       "Barrett",
+       "Stephan"
+      ],
+      "pa": 1.5,
+      "pb": 0.5
+     },
+     {
+      "day": 2,
+      "format": "2-man best ball",
+      "a": [
+       "Shevin",
+       "Geoff"
+      ],
+      "b": [
+       "Gil",
+       "Ryan K"
+      ],
+      "pa": 2,
+      "pb": 0
+     },
+     {
+      "day": 2,
+      "format": "2-man best ball",
+      "a": [
+       "Eddie C",
+       "Soto"
+      ],
+      "b": [
+       "Josh",
+       "Stephan"
+      ],
+      "pa": 0.25,
+      "pb": 1.75
+     },
+     {
+      "day": 2,
+      "format": "2-man best ball",
+      "a": [
+       "Jason L",
+       "Geno"
+      ],
+      "b": [
+       "Chris D",
+       "Lavery"
+      ],
+      "pa": 0,
+      "pb": 2
+     },
+     {
+      "day": 2,
+      "format": "2-man best ball",
+      "a": [
+       "EJ",
+       "Nardini"
+      ],
+      "b": [
+       "Barrett",
+       "Gy"
+      ],
+      "pa": 1.75,
+      "pb": 0.25
+     },
+     {
+      "day": 3,
+      "format": "Singles",
+      "a": [
+       "Shevin"
+      ],
+      "b": [
+       "Josh"
+      ],
+      "pa": 1,
+      "pb": 0
+     },
+     {
+      "day": 3,
+      "format": "Singles",
+      "a": [
+       "Soto"
+      ],
+      "b": [
+       "Stephan"
+      ],
+      "pa": 0,
+      "pb": 1
+     },
+     {
+      "day": 3,
+      "format": "Singles",
+      "a": [
+       "Nardini"
+      ],
+      "b": [
+       "Gil"
+      ],
+      "pa": 1,
+      "pb": 0
+     },
+     {
+      "day": 3,
+      "format": "Singles",
+      "a": [
+       "Eddie C"
+      ],
+      "b": [
+       "Gy"
+      ],
+      "pa": 1,
+      "pb": 0
+     },
+     {
+      "day": 3,
+      "format": "Singles",
+      "a": [
+       "Geno"
+      ],
+      "b": [
+       "Lavery"
+      ],
+      "pa": 0,
+      "pb": 1
+     },
+     {
+      "day": 3,
+      "format": "Singles",
+      "a": [
+       "Jason L"
+      ],
+      "b": [
+       "Barrett"
+      ],
+      "pa": 0,
+      "pb": 1
+     },
+     {
+      "day": 3,
+      "format": "Singles",
+      "a": [
+       "EJ"
+      ],
+      "b": [
+       "Chris D"
+      ],
+      "pa": 0,
+      "pb": 1
+     },
+     {
+      "day": 3,
+      "format": "Singles",
+      "a": [
+       "Geoff"
+      ],
+      "b": [
+       "Ryan K"
+      ],
+      "pa": 0,
+      "pb": 1
+     }
+    ],
+    "pts": {
+     "Jason L": [
+      1.75,
+      3.25
+     ],
+     "Shevin": [
+      4.75,
+      0.25
+     ],
+     "Chris D": [
+      3.25,
+      1.75
+     ],
+     "Ryan K": [
+      1.25,
+      3.75
+     ],
+     "EJ": [
+      2.0,
+      3.0
+     ],
+     "Geno": [
+      0.25,
+      4.75
+     ],
+     "Gil": [
+      1.75,
+      3.25
+     ],
+     "Gy": [
+      2.0,
+      3.0
+     ],
+     "Soto": [
+      2.25,
+      2.75
+     ],
+     "Geoff": [
+      4,
+      1
+     ],
+     "Lavery": [
+      3,
+      2
+     ],
+     "Josh": [
+      1.75,
+      3.25
+     ],
+     "Eddie C": [
+      2.75,
+      2.25
+     ],
+     "Nardini": [
+      4.25,
+      0.75
+     ],
+     "Barrett": [
+      1.75,
+      3.25
+     ],
+     "Stephan": [
+      3.25,
+      1.75
+     ]
+    }
+   },
+   "calcutta": {
+    "owners": [
+     "Geno",
+     "EJ"
+    ],
+    "price": 4400,
+    "pot": 23600,
+    "teams": 8
+   },
+   "ctp": [
+    {
+     "day": 1,
+     "wins": {
+      "Stephan": 1.5,
+      "Barrett": 1.5,
+      "Eddie C": 1
+     }
+    },
+    {
+     "day": 2,
+     "wins": {
+      "Gy": 1,
+      "Geno": 1,
+      "Gil": 1,
+      "EJ": 1
+     }
+    },
+    {
+     "day": 3,
+     "wins": {
+      "Soto": 2,
+      "EJ": 1,
+      "Barrett": 1
+     }
+    },
+    {
+     "day": 4,
+     "wins": {
+      "Chris D": 1,
+      "Soto": 1,
+      "Geoff": 1,
+      "Barrett": 1
+     }
+    }
+   ],
+   "dates": "Aug 5-10, 2026",
+   "lat": 44.1,
+   "lng": -121.3
+  }
+ ]
+}
