@@ -77,9 +77,9 @@
   const bar = (v, max, gold) => `<div class="track"><div class="fill${gold ? ' gold' : ''}" style="width:${Math.max(3, v / max * 100)}%"></div></div>`;
 
   // ---------- pages ----------
-  function home() {
+  // Home has two views: the last trip (#/) and all-time (#/?view=all)
+  function home(all) {
     const t = LAST;
-    const rc = t.rc;
     const intl = TRIPS.filter(x => x.intl).length;
     const totalPot = CALC_TRIPS.reduce((a, x) => a + x.calcutta.pot, 0);
     return `
@@ -94,9 +94,13 @@
         <div><div class="v">${money(totalPot)}</div><div class="l">Calcutta pots since ${CALC_TRIPS[0].year}</div></div>
       </div>
     </div></div>
-    ${sec(`${t.year} in Review`, `${esc(t.dest)} · ${esc(t.course)}${t.dates ? ' · ' + esc(t.dates) : ''}`, yearInReview(t))}
-    ${sec('All Trips', '<a class="pl" href="#/trips">Trip pages</a>', mapSection() + '<div style="height:16px"></div>' + tripCards([...TRIPS].reverse()))}
-    ${sec('Leaders', `Min ${MIN} trips`, leaderTiles())}`;
+    ${all
+      ? sec('All-Time', viewToggle(true), allTimeReview()) + sec('All Trips', '<a class="pl" href="#/trips">Trip pages</a>', mapSection(TRIPS) + '<div style="height:16px"></div>' + tripCards([...TRIPS].reverse()))
+      : sec(`${t.year} in Review`, viewToggle(false), `<p class="where">${esc(t.dest)} · ${esc(t.course)}${t.dates ? ' · ' + esc(t.dates) : ''}</p>` + yearInReview(t)) + sec('The Trip', '<a class="pl" href="#/trips">Every trip</a>', mapSection([t]) + '<div style="height:16px"></div>' + tripCards([t]))}`;
+  }
+
+  function viewToggle(all) {
+    return `<div class="seg"><a href="#/"${all ? '' : ' class="on"'}>${LAST.year}</a><a href="#/?view=all"${all ? ' class="on"' : ''}>All-Time</a></div>`;
   }
 
   function leaderTiles() {
@@ -107,13 +111,38 @@
       const names = s.filter(p => f(p) === best).map(p => pl(p.name)).join(', ');
       return { v: fmt(best), names };
     };
-    const tiles = [
+    const ptsPct = p => p.ptsW / (p.ptsW + p.ptsL);
+    return [
       ['Most Belts', top(q, p => p.belts.length, v => v), '#/belt'],
       ['Most Trips', top(q, p => p.trips.length, v => v), '#/attendance'],
+      ['Best Ryder Cup Pts %', top(q.filter(p => p.ptsYears >= MIN), ptsPct, v => Math.round(v * 100) + '%'), '#/ryder-cup'],
       ['Most CTPs', top(q, p => p.ctp, num), '#/attendance'],
       ['Most Calcuttas', top(q, p => p.calc.length, v => v), '#/calcutta'],
-    ];
-    return `<div class="grid g4">${tiles.map(([l, r, href]) => `<div class="card tile"><div class="v">${r.v}</div><div class="l"><a class="pl" href="${href}">${l}</a></div><div class="s">${r.names}</div></div>`).join('')}</div>`;
+    ].map(([l, r, href]) => `<div class="card tile"><div class="v">${r.v}</div><div class="l"><a class="pl" href="${href}">${l}</a></div><div class="s">${r.names}</div></div>`);
+  }
+
+  function allTimeReview() {
+    const t = LAST;
+    const holders = `<div class="card dark"><h3>Current Belt Holders</h3><div class="champ"><div class="icon">🏆</div><div><div class="who">${pair(t.belt.champs)}</div><div class="what">${t.year} · ${esc(t.course)}</div></div></div></div>`;
+    const rows = players().sort((a, b) => b.trips.length - a.trips.length || b.belts.length - a.belts.length || a.name.localeCompare(b.name));
+    const dash = '<span class="muted">—</span>';
+    const body = rows.map(p => {
+      const team = p.teamW.length + p.teamL.length;
+      return `<tr>
+      <td class="nm">${pl(p.name)}</td>
+      <td class="r num strong">${p.trips.length}</td>
+      <td class="r num">${p.belts.length || dash}</td>
+      <td class="r num">${team ? `${p.teamW.length}–${p.teamL.length}` : dash}</td>
+      <td class="r num hm">${p.ptsYears ? `${num(p.ptsW)}–${num(p.ptsL)}` : dash}</td>
+      <td class="r num">${p.ptsYears ? pct(p.ptsW, p.ptsW + p.ptsL) : dash}</td>
+      <td class="r num hm">${p.calc.length || dash}</td>
+      <td class="r num">${p.ctp ? num(p.ctp) : dash}</td>
+    </tr>`;
+    });
+    return `<div class="grid g3">${holders}${leaderTiles().join('')}</div>
+    <div class="card" style="margin-top:16px"><h3>Every golfer, all-time</h3>${table(
+      '<th>Player</th><th class="r">Trips</th><th class="r">Belts</th><th class="r">RC Team</th><th class="r hm">RC Pts</th><th class="r">Pts %</th><th class="r hm">Calc</th><th class="r">CTP</th>',
+      body, 'yir')}<div class="note">Leaders need ${MIN}+ trips. RC Team is team wins–losses since 2009; RC Pts and Pts % count only years with individual points.</div></div>`;
   }
 
   function yearInReview(t) {
@@ -398,15 +427,18 @@
   }
 
   // One pin per place; repeat visits (Pinehurst, Casa de Campo) share a pin
-  function mapSection() {
-    return `<div class="card mapcard"><div id="map"></div><div class="legend" style="margin:10px 0 0"><span><span class="pin"></span>U.S.</span><span><span class="pin intl"></span>International</span><span>Bigger pin = more visits</span></div></div>`;
+  let mapTrips = TRIPS;
+  function mapSection(list) {
+    mapTrips = list || TRIPS;
+    const legend = mapTrips.length > 1 ? `<div class="legend" style="margin:10px 0 0"><span><span class="pin"></span>U.S.</span><span><span class="pin intl"></span>International</span><span>Bigger pin = more visits</span></div>` : '';
+    return `<div class="card mapcard"><div id="map"></div>${legend}</div>`;
   }
   function initMap() {
     const el = document.getElementById('map');
     if (!el) return;
     if (!window.L) { el.innerHTML = '<div class="empty" style="padding:20px">Map could not load.</div>'; return; }
     const places = {};
-    TRIPS.forEach(t => {
+    mapTrips.forEach(t => {
       const k = t.dest.replace(/\s*\(\d+\)$/, '');
       (places[k] = places[k] || { name: k, lat: t.lat, lng: t.lng, intl: t.intl, trips: [] }).trips.push(t);
     });
@@ -422,9 +454,11 @@
       m.bindPopup(`<div class="mp"><b>${esc(p.name)}</b>${p.trips.map(t => `<a href="#/trip/${t.year}"><span class="yr">${t.year}</span> ${esc(t.course)}<br><span class="muted small">Belt: ${t.belt.champs.map(esc).join(' &amp; ')}</span></a>`).join('')}</div>`);
       pts.push([p.lat, p.lng]);
     });
-    map.fitBounds(pts, { padding: [24, 24] });
+    // A single pin would zoom all the way in; show the region around it instead
+    const fit = () => pts.length > 1 ? map.fitBounds(pts, { padding: [24, 24] }) : map.setView(pts[0], 4);
+    fit();
     // Leaflet only loads tiles for the size it measured at start; re-measure once layout and fonts settle
-    const refit = () => { map.invalidateSize(); map.fitBounds(pts, { padding: [24, 24] }); };
+    const refit = () => { map.invalidateSize(); fit(); };
     setTimeout(refit, 250);
     if (document.fonts) document.fonts.ready.then(refit);
     if (window.ResizeObserver) new ResizeObserver(() => map.invalidateSize()).observe(el);
@@ -435,13 +469,18 @@
   }
 
   // ---------- router ----------
+  let lastPath = null;
   function route() {
     const h = location.hash.replace(/^#/, '') || '/';
     const [path, qs] = h.split('?');
     const parts = path.split('/').filter(Boolean).map(decodeURIComponent);
     const params = new URLSearchParams(qs || '');
+    // Flipping the home toggle re-renders the same page; keep the scroll position
+    const keepScroll = !parts.length && lastPath === '';
+    lastPath = parts.join('/');
+    const y = window.scrollY;
     let html, key = parts[0] || '';
-    if (!parts.length) html = home();
+    if (!parts.length) html = home(params.get('view') === 'all');
     else if (key === 'trips') html = tripsPage();
     else if (key === 'trip') { html = tripPage(+parts[1]); key = 'trips'; }
     else if (key === 'players') html = playersPage();
@@ -458,7 +497,7 @@
     document.title = (parts.length && title ? title.textContent + ' · ' : '') + 'The Idiot Cup';
     wire();
     initMap();
-    window.scrollTo(0, 0);
+    window.scrollTo(0, keepScroll ? y : 0);
   }
 
   function wire() {
