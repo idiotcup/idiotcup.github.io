@@ -105,12 +105,12 @@
     };
     const ptsPct = p => p.ptsW / (p.ptsW + p.ptsL);
     return [
-      ['Most Belts', top(q, p => p.belts.length, v => v), '#/belt'],
-      ['Most Trips', top(q, p => p.trips.length, v => v), '#/attendance'],
-      ['Best Ryder Cup Pts %', top(q.filter(p => p.ptsYears >= MIN), ptsPct, v => Math.round(v * 100) + '%'), '#/ryder-cup'],
-      ['Most CTPs', top(q, p => p.ctp, num), '#/attendance'],
-      ['Most Calcuttas', top(q, p => p.calc.length, v => v), '#/calcutta'],
-    ].map(([l, r, href]) => `<div class="card tile"><div class="v">${r.v}</div><div class="l"><a class="pl" href="${href}">${l}</a></div><div class="s">${r.names}</div></div>`);
+      ['Most Belts', '🥇', top(q, p => p.belts.length, v => `${v} belts`), '#/belt', ''],
+      ['Most Trips', '✈️', top(q, p => p.trips.length, v => `${v} of ${TRIPS.length} trips`), '#/attendance', ''],
+      ['Best Ryder Cup Record', '⛳', top(q.filter(p => p.ptsYears >= MIN), ptsPct, v => `${Math.round(v * 100)}% of points won`), '#/ryder-cup', ''],
+      ['Most Closest to the Pin', '🎯', top(q, p => p.ctp, v => `${num(v)} CTPs`), '#/attendance', ''],
+      ['Most Calcuttas', '💰', top(q, p => p.calc.length, v => `${v} wins`), '#/calcutta', ' gold'],
+    ].map(([l, icon, r, href, cls]) => `<div class="card${cls}"><h3><a href="${href}">${l}</a></h3><div class="champ"><div class="icon">${icon}</div><div><div class="who">${r.names}</div><div class="what">${r.v}</div></div></div></div>`);
   }
 
   function allTimeReview() {
