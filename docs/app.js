@@ -77,7 +77,7 @@
   const bar = (v, max, gold) => `<div class="track"><div class="fill${gold ? ' gold' : ''}" style="width:${Math.max(3, v / max * 100)}%"></div></div>`;
 
   // ---------- pages ----------
-  // Home has two views: the last trip (#/) and all-time (#/?view=all)
+  // Home has two views: all-time (#/) and the last trip (#/?view=latest)
   function home(all) {
     const t = LAST;
     const intl = TRIPS.filter(x => x.intl).length;
@@ -100,7 +100,7 @@
   }
 
   function viewToggle(all) {
-    return `<div class="seg"><a href="#/"${all ? '' : ' class="on"'}>${LAST.year}</a><a href="#/?view=all"${all ? ' class="on"' : ''}>All-Time</a></div>`;
+    return `<div class="seg"><a href="#/"${all ? ' class="on"' : ''}>All-Time</a><a href="#/?view=latest"${all ? '' : ' class="on"'}>${LAST.year}</a></div>`;
   }
 
   function leaderTiles() {
@@ -480,7 +480,7 @@
     lastPath = parts.join('/');
     const y = window.scrollY;
     let html, key = parts[0] || '';
-    if (!parts.length) html = home(params.get('view') === 'all');
+    if (!parts.length) html = home(params.get('view') !== 'latest');
     else if (key === 'trips') html = tripsPage();
     else if (key === 'trip') { html = tripPage(+parts[1]); key = 'trips'; }
     else if (key === 'players') html = playersPage();
