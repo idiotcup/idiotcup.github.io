@@ -210,7 +210,7 @@ select { font: inherit; font-size: 15px; padding: 9px 12px; border-radius: 10px;
 
 /* Trip map */
 .mapcard { padding: 10px; }
-#map { height: 420px; border-radius: 8px; z-index: 0; background: #e9efe9; }
+#map { height: 420px; border-radius: 8px; z-index: 0; background: #d4d4d8; }
 @media (max-width: 640px) { #map { height: 300px; } }
 .pin { width: 12px; height: 12px; border-radius: 50%; background: var(--green); border: 2px solid #fff; box-shadow: 0 0 0 1px var(--cream2); display: inline-block; }
 .pin.intl { background: var(--gold); }

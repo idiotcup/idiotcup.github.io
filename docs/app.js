@@ -423,6 +423,11 @@
       pts.push([p.lat, p.lng]);
     });
     map.fitBounds(pts, { padding: [24, 24] });
+    // Leaflet only loads tiles for the size it measured at start; re-measure once layout and fonts settle
+    const refit = () => { map.invalidateSize(); map.fitBounds(pts, { padding: [24, 24] }); };
+    setTimeout(refit, 250);
+    if (document.fonts) document.fonts.ready.then(refit);
+    if (window.ResizeObserver) new ResizeObserver(() => map.invalidateSize()).observe(el);
   }
 
   function notFound() {
