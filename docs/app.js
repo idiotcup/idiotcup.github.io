@@ -80,19 +80,11 @@
   // Home has two views: all-time (#/) and the last trip (#/?view=latest)
   function home(all) {
     const t = LAST;
-    const intl = TRIPS.filter(x => x.intl).length;
-    const totalPot = CALC_TRIPS.reduce((a, x) => a + x.calcutta.pot, 0);
     return `
     <div class="hero"><div class="wrap">
       <div class="eyebrow">Annual golf trip · Est. ${D.meta.since}</div>
       <h1>The Idiot <em>Cup</em></h1>
       <p class="sub">${TRIPS.length} trips, ${players().length} golfers, one belt. Every result since ${D.meta.since}.</p>
-      <div class="hero-stats">
-        <div><div class="v">${TRIPS.length}</div><div class="l">Trips</div></div>
-        <div><div class="v">${intl}</div><div class="l">International</div></div>
-        <div><div class="v">${players().length}</div><div class="l">Golfers all-time</div></div>
-        <div><div class="v">${money(totalPot)}</div><div class="l">Calcutta pots since ${CALC_TRIPS[0].year}</div></div>
-      </div>
     </div></div>
     ${all
       ? sec('All-Time', viewToggle(true), allTimeReview()) + sec('All Trips', '<a class="pl" href="#/trips">Trip pages</a>', mapSection(TRIPS) + '<div style="height:16px"></div>' + tripCards([...TRIPS].reverse()))
